@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    var myVar = "global"; // Declare a global variable
+    function checkScope() {
+        var myVar = "local"; // Declare a local varible
+        document.write(myVar);
+    }
+</script>
+<input type="button" onclick="checkScope()" value="Variable"/>
+</body>
+</html>
