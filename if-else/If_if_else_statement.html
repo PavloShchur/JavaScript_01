@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+<input id="weather">
+<button id="muButton">Submit</button>
+
+<script type="text/javascript">
+
+    document.getElementById("muButton").onclick = function () {
+       if(document.getElementById("weather").value.trim() == "rain"){
+           alert('It is raining.');
+       } else {
+           alert('It is not raining.');
+       }
+    };
+
+    var x = 1, y = 2;
+    if (x = 1) {
+        alert('You are good');
+    } else {
+        alert('No working man');
+    }
+</script>
 <script src="If_else_if_statement.js"></script>
 </body>
 </html>

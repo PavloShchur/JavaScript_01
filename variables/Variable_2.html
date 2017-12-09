@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<input id="myInput" type="text" value="check">
+<button id="b_4">Hide the text</button>
+<div id="dv_4">We want to hide this text</div>
+
+
+<script type="text/javascript">
+    var name = document.getElementById("myInput").value;
+    document.getElementById("b_4").onclick = function () {
+        name = document.getElementById("myInput").value;
+        document.getElementById("dv_4").innerHTML = name;
+    };
+
+    var arrayName = new Array();
+    arrayName[0] = "Index_0";
+    arrayName[1] = "Index_1";
+    arrayName[2] = "Index_2";
+    console.log(arrayName);
+    anotherArray = ["red, green, black"];
+    anotherArray.push("white");
+    console.log(anotherArray);
+    console.log(anotherArray.length);
+
+</script>
+</body>
+</html>
