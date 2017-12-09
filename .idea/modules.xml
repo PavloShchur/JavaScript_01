@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Script_01.iml" filepath="$PROJECT_DIR$/.idea/Java_Script_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaScript_01.iml" filepath="$PROJECT_DIR$/.idea/JavaScript_01.iml" />
+      <module fileurl="file://D:\БІБЛІОТЕКА\IT\Style\JavaScript_01\.idea\Java_Script_01.iml" filepath="D:\БІБЛІОТЕКА\IT\Style\JavaScript_01\.idea\Java_Script_01.iml" />
     </modules>
   </component>
 </project>

@@ -10,11 +10,32 @@
 </head>
 <body>
     <h1>Example Domain</h1>
-    <p id="name">My name is Pavlo</p>
-    <button onclick="alert('You clicked!!!')">Click</button>
+    <button id="button">click me</button>
+    <div id="1stDiv">this is some text</div>
+    <button id="2ndButton">let's append</button>
+    <div id="2ndDiv">this is text of second div</div>
+    <button id="createemp">let's create some text</button>
+    <div id="emptyDiv"></div>
+
+    <button id="b_4">Hide the text</button>
+    <div id="dv_4">We want to hide this text</div>
+
+
 
     <script type="text/javascript">
-    document.getElementById("name").innerHTML = "I am Pavlo Shchur.";
+    document.getElementById("button").onclick = function () {
+        document.getElementById("1stDiv").innerHTML = "this is some text after" };
+    document.getElementById("2ndButton").onclick = function () {
+        document.getElementById("2ndDiv").innerHTML
+            = document.getElementById("2ndDiv").innerHTML + " this is appended text";
+    };
+    document.getElementById("createemp").onclick = function () {
+        document.getElementById("emptyDiv").innerHTML = "<ul><li>apple</li><li>orange</li></ul>" };
+    document.getElementById("b_4").onclick = function () {
+        document.getElementById("dv_4").style.display="none" };
+
+
+
     </script>
 </body>
 </html>
