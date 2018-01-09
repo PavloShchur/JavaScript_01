@@ -1,54 +1,39 @@
 function sayHello() {
     alert("Hello Wrld")
 }
-alert('Hello, this is an alert function');
-function useAlert() {
-    alert('Use Alert')
+
+var myObject = {name: "Pavlo", surname: "Shchur", phone: "12345"};
+console.log(myObject.name);
+console.log(myObject['surname']);
+
+function myFunction(a) {
+    a++;
+    console.log('a = ' + a);
 }
-// JavaScript is a case sensitive
-var a = 1; //integer
-var A = 2;
 
-// var a = 1, A = 2;
-
-console.log('a = ' + a);
-console.log('A = ' + A);
-var someString = "someString"; // string
-console.log('someString = ' + someString);
-
-var boo = false; //boolean
-console.log('boo = ' + boo);
-
-var myObject = {name: "Jogn", email: "pavloshchur@ukr.net", age: 20};
-var myArray = ["one", "two", 30];
-console.log('myObject = ' + myObject);
-console.log('myArray = ' + myArray);
-
-// appleAB is the number of apples I ate.
-var appleAB = "strings whitespace"; // string
-var $App = 2; // integer
-var _boo = false; //boolean true or false
-var myObject = {name: "John", email: "my@email.com", age: 20}; //object
-var myArray = ["one", "two", 3];
-console.log(myObject);
-console.log(myArray);
-//expression function
-var myFunc = function(){console.log('in experssionFunction ' + myObject);};
-//declaration function
-function myFunction() {
-    console.log('in myFunction ' + myObject);
+for (i = 0; i < 3; i++) {
+    myFunction(i);
 }
-myFunc();
-myFunction(); //invoke an function
 
+var tempVariable;
+for (tempVariable in myObject) {
+    console.log('tempVariable = ' + tempVariable + ' ' + myObject[tempVariable]);
+}
 
-/*
- everything in
- here is ignored
- */
+var f = 0;
 
+while (f < 3) {
+    console.log('f = ' + f);
+    f++;
+}
 
+var msg = "Hello World";
+console.log(msg.startsWith('Hello'));
+console.log(msg.startsWith('l', 2));
+console.log(msg.endsWith('World'));
+console.log(msg.includes('World'));
 
+console.log('x'.repeat(3))
 
 
 
