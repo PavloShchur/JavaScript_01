@@ -22,3 +22,33 @@ function makeRequest(url, timeout, callback) {
 }
 
 makeRequest('/foo', 300, function () {});
+
+
+let speak = function (what) {
+    // console.log(what);
+    console.log(this.love);
+};
+
+let saySomething = {normal : "moew", love : "purr"};
+
+speak.call(saySomething);
+//console.log('speak : ' + speak('moof'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
