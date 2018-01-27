@@ -26,13 +26,49 @@
 //     console.log(i + ' ' + box[i]);
 // }
 
-let noiseArray = ['purr', 'oink'];
-noiseArray.unshift('hiss');
-noiseArray.push('moew');
-console.log(noiseArray.length);
-console.log(noiseArray);
-noiseArray[3] = 'growl';
-console.log(noiseArray);
+// let noiseArray = ['purr', 'oink'];
+// noiseArray.unshift('hiss');
+// noiseArray.push('moew');
+// console.log(noiseArray.length);
+// console.log(noiseArray);
+// noiseArray[3] = 'growl';
+// console.log(noiseArray);
+
+let names = ['John', 'Jane', 'Mark'];
+let years = new Array(1990, 1969, 1948);
+
+console.log(names[2]);
+names[1] = 'Ben';
+console.log(names);
+
+
+let john = ['John', 'Smith', 1990, 'designer', false];
+
+john.push('blue');
+john.unshift('Mr.');
+john.pop();
+john.shift();
+console.log(john);
+
+if (john.indexOf('teacher') === -1) {
+    console.log('John is NOT a teacher.');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
