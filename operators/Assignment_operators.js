@@ -1,40 +1,59 @@
-/**
- * Created by User on 21.06.2017.
- */
+// let a = 33;
+// let b = 10;
+// let linebreak = "<br />";
 
-var a = 33;
-var b = 10;
-var linebreak = "<br />";
+// document.write("Value of a => (a = b) => ");
+// result = (a = b);
+// document.write(result);
+// document.write(linebreak);
+//
+// document.write("Value of a => (a += b) => ");
+// result = ( a += b);
+// document.write(result);
+// document.write(linebreak);
+//
+// document.write("Vlaue of a => (a -= b) => ");
+// result = (a -= b);
+// document.write(result);
+// document.write(linebreak);
+//
+// document.write("Vlaue of a => (a *= b) => ");
+// result = (a *= b);
+// document.write(result);
+// document.write(linebreak);
+//
+// document.write("Value of a => (a /= b) => ");
+// result = (a /= b);
+// document.write(result);
+// document.write(linebreak);
+//
+// document.write("Value of a => (a %= b) => ");
+// result = (a %= b);
+// document.write(result);
+// document.write(linebreak);
 
-document.write("Value of a => (a = b) => ");
-result = (a = b);
-document.write(result);
-document.write(linebreak);
+let now = 2016;
+let birthYear = now - 26;
 
-document.write("Value of a => (a += b) => ");
-result = ( a += b);
-document.write(result);
-document.write(linebreak);
+birthYear = now - 26 * 2;
+//2016 - 52
+//1964
 
-document.write("Vlaue of a => (a -= b) => ");
-result = (a -= b);
-document.write(result);
-document.write(linebreak);
+console.log(birthYear);
 
-document.write("Vlaue of a => (a *= b) => ");
-result = (a *= b);
-document.write(result);
-document.write(linebreak);
+let ageJohn = 30;
+let ageMark = 30;
 
-document.write("Value of a => (a /= b) => ");
-result = (a /= b);
-document.write(result);
-document.write(linebreak);
+ageJohn = ageMark = (3 + 5) * 4 - 6;
+//ageJohn = ageMark = 26
+//ageJohn = 26
 
-document.write("Value of a => (a %= b) => ");
-result = (a %= b);
-document.write(result);
-document.write(linebreak);
+ageJohn++;
+ageMark *= 2;
+ageMark = ageMark * 2;
+
+console.log(ageJohn);
+console.log(ageMark);
 
 
 

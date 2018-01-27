@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = prompt("Enter number: ");
+    getFactorial(num);
+    function getFactorial(n) {
+        let result = (n !== 1) ? n * getFactorial(n - 1) : 1;
+        return document.write("Number: " + n + " Result: " + result);
+    }
+</script>
+</body>
+</html>

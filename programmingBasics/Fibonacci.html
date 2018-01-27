@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = prompt("Enter number: ");
+    let sum = 0;
+    getSumOfFibonacciNumbers(num);
+    function getSumOfFibonacciNumbers(num) {
+        let a = 1, b = 0, temp;
+
+        while (num >= 0) {
+            temp = a;
+            a = a + b;
+            b = temp;
+            sum += b;
+            num--;
+        }
+
+        return document.write("Number: " + b + " Sum: " + sum);
+    }
+
+    function getSumOfFibonacciNumbers_Recursive(num) {
+        if(num <= 1) return 1;
+        return getSumOfFibonacciNumbers_Recursive(num - 1) + getSumOfFibonacciNumbers_Recursive(num - 2);
+    }
+</script>
+</body>
+</html>

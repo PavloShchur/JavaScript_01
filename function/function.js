@@ -21,7 +21,8 @@ function makeRequest(url, timeout, callback) {
     };
 }
 
-makeRequest('/foo', 300, function () {});
+makeRequest('/foo', 300, function () {
+});
 
 
 let speak = function (what) {
@@ -29,12 +30,22 @@ let speak = function (what) {
     console.log(this.love);
 };
 
-let saySomething = {normal : "moew", love : "purr"};
+let saySomething = {normal: "moew", love: "purr"};
 
 speak.call(saySomething);
+
 //console.log('speak : ' + speak('moof'));
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+function sum(a, b) {
+    return a + b;
+}
+let arrowSum = (a, b) => a + b;
+let arrowSum2 = (a, b) => {
+    return a + b;
+};
+console.log('Arrow function ' + arrowSum(5, 75));
 
 
 
