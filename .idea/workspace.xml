@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae91fcd-5534-4503-bbc4-d18c9c19c6a1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/programmingBasics/Factorial.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/programmingBasics/Fibonacci.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/for-in_loop/For-in_loop.html" afterPath="$PROJECT_DIR$/for_loop/For-in_loop.html" />
-      <change beforePath="$PROJECT_DIR$/for-in_loop/For-in_loop.js" afterPath="$PROJECT_DIR$/for_loop/For-in_loop.js" />
-      <change beforePath="$PROJECT_DIR$/function/function.js" afterPath="$PROJECT_DIR$/function/function.js" />
-      <change beforePath="$PROJECT_DIR$/function/function_with_parameters.js" afterPath="$PROJECT_DIR$/function/function_with_parameters.js" />
-      <change beforePath="$PROJECT_DIR$/if-else/If_else_statement.js" afterPath="$PROJECT_DIR$/if-else/If_else_statement.js" />
-      <change beforePath="$PROJECT_DIR$/operators/Assignment_operators.js" afterPath="$PROJECT_DIR$/operators/Assignment_operators.js" />
-      <change beforePath="$PROJECT_DIR$/variables/Variable.js" afterPath="$PROJECT_DIR$/variables/Variable.js" />
+      <change beforePath="$PROJECT_DIR$/for_loop/for_loop.js" afterPath="$PROJECT_DIR$/for_loop/for_loop.js" />
+      <change beforePath="$PROJECT_DIR$/objects/objectsSimple.js" afterPath="$PROJECT_DIR$/objects/objectsSimple.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,23 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="function_with_parameters.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/function/function_with_parameters.js">
+      <file leaf-file-name="for_loop.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/for_loop/for_loop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="84" column="72" lean-forward="false" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="-82">
+              <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function_with_parameters.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function/function_with_parameters.html">
+      <file leaf-file-name="for_loop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_loop/for_loop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/function/function_with_parameters.html" />
         <option value="$PROJECT_DIR$/function/d.html" />
         <option value="$PROJECT_DIR$/HelloWorld_pavlo_shchur.html" />
         <option value="$PROJECT_DIR$/qwe.html" />
@@ -115,11 +105,9 @@
         <option value="$PROJECT_DIR$/programmingBasics/Recursion.html" />
         <option value="$PROJECT_DIR$/programmingBasics/Recursion.js" />
         <option value="$PROJECT_DIR$/variables/Variable.html" />
-        <option value="$PROJECT_DIR$/objects/objectsSimple.js" />
         <option value="$PROJECT_DIR$/ArrayOutput.html" />
         <option value="$PROJECT_DIR$/arrays/ArrayOutput.html" />
         <option value="$PROJECT_DIR$/objects/objectsSimple.html" />
-        <option value="$PROJECT_DIR$/arrays/ArrayOutput.js" />
         <option value="$PROJECT_DIR$/variables/Variable.js" />
         <option value="$PROJECT_DIR$/operators/Assignment_operators.js" />
         <option value="$PROJECT_DIR$/programmingBasics/Fibonacci.html" />
@@ -127,6 +115,9 @@
         <option value="$PROJECT_DIR$/function/function.js" />
         <option value="$PROJECT_DIR$/if-else/If_else_statement.js" />
         <option value="$PROJECT_DIR$/function/function_with_parameters.js" />
+        <option value="$PROJECT_DIR$/arrays/ArrayOutput.js" />
+        <option value="$PROJECT_DIR$/objects/objectsSimple.js" />
+        <option value="$PROJECT_DIR$/for_loop/for_loop.js" />
       </list>
     </option>
   </component>
@@ -175,7 +166,7 @@
             <path>
               <item name="JavaScript_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript_01" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="for_loop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,7 +335,7 @@
       <workItem from="1516442620988" duration="3969000" />
       <workItem from="1516827231225" duration="10212000" />
       <workItem from="1517001399287" duration="4178000" />
-      <workItem from="1517040283838" duration="11905000" />
+      <workItem from="1517040283838" duration="17281000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript_01">
       <created>1497952093276</created>
@@ -493,11 +484,25 @@
       <option name="project" value="LOCAL" />
       <updated>1517004971292</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="JavaScript objects.">
+      <created>1517066619619</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1517066619619</updated>
+    </task>
+    <task id="LOCAL-00023" summary="JavaScript arrays.">
+      <created>1517077768129</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1517077768129</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122054000" />
+    <option name="totallyTimeSpent" value="127430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,8 +515,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16145833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16145833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -561,27 +567,14 @@
     <MESSAGE value="JavaScript_01" />
     <MESSAGE value="BlackJack" />
     <MESSAGE value="JavaScript objects." />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaScript objects." />
+    <MESSAGE value="JavaScript arrays." />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript arrays." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/scrollingAnimation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/if-else/If_else_if_statement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation/Scrolling.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -866,27 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/objectsSimple.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/objectsSimple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -984,6 +956,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/function/function_with_parameters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="84" column="72" lean-forward="false" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/function/function_with_parameters.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -992,13 +974,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function/function_with_parameters.js">
+    <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="84" column="72" lean-forward="false" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
+        <state relative-caret-position="210">
+          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/objectsSimple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/objectsSimple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_loop/for_loop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_loop/for_loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
