@@ -334,7 +334,7 @@
       <workItem from="1516827231225" duration="10212000" />
       <workItem from="1517001399287" duration="4178000" />
       <workItem from="1517040283838" duration="18485000" />
-      <workItem from="1517515589145" duration="1536000" />
+      <workItem from="1517515589145" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript_01">
       <created>1497952093276</created>
@@ -504,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517082688237</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="JavaScript for loop.">
+      <created>1517522050744</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1517522050744</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130170000" />
+    <option name="totallyTimeSpent" value="130305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,7 +581,8 @@
     <MESSAGE value="BlackJack" />
     <MESSAGE value="JavaScript arrays." />
     <MESSAGE value="JavaScript objects." />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaScript objects." />
+    <MESSAGE value="JavaScript for loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript for loop." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
