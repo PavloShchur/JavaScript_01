@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae91fcd-5534-4503-bbc4-d18c9c19c6a1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/audioAndVideo/audioAndVideo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/audioAndVideo/audioAndVideo.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/arrays/ArrayOutput.html" afterPath="$PROJECT_DIR$/arrays/ArrayOutput.html" />
+      <change beforePath="$PROJECT_DIR$/arrays/ArrayOutput.js" afterPath="$PROJECT_DIR$/arrays/ArrayOutput.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,18 +23,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Loop.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/for_loop/Loop.js">
+      <file leaf-file-name="audioAndVideo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/audioAndVideo/audioAndVideo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="147">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Loop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/for_loop/Loop.html">
+      <file leaf-file-name="audioAndVideo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/audioAndVideo/audioAndVideo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
@@ -45,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qwe.html" />
-        <option value="$PROJECT_DIR$/while_loop/filter.html" />
         <option value="$PROJECT_DIR$/qwe.html" />
         <option value="$PROJECT_DIR$/ExampleDomain.html" />
         <option value="$PROJECT_DIR$/Circle.html" />
@@ -102,7 +104,6 @@
         <option value="$PROJECT_DIR$/programmingBasics/Recursion.js" />
         <option value="$PROJECT_DIR$/variables/Variable.html" />
         <option value="$PROJECT_DIR$/ArrayOutput.html" />
-        <option value="$PROJECT_DIR$/arrays/ArrayOutput.html" />
         <option value="$PROJECT_DIR$/objects/objectsSimple.html" />
         <option value="$PROJECT_DIR$/variables/Variable.js" />
         <option value="$PROJECT_DIR$/operators/Assignment_operators.js" />
@@ -111,11 +112,14 @@
         <option value="$PROJECT_DIR$/function/function.js" />
         <option value="$PROJECT_DIR$/if-else/If_else_statement.js" />
         <option value="$PROJECT_DIR$/function/function_with_parameters.js" />
-        <option value="$PROJECT_DIR$/arrays/ArrayOutput.js" />
         <option value="$PROJECT_DIR$/objects/objectsSimple.js" />
         <option value="$PROJECT_DIR$/for_loop/for_loop.js" />
         <option value="$PROJECT_DIR$/for_loop/Loop.html" />
         <option value="$PROJECT_DIR$/for_loop/Loop.js" />
+        <option value="$PROJECT_DIR$/arrays/ArrayOutput.html" />
+        <option value="$PROJECT_DIR$/arrays/ArrayOutput.js" />
+        <option value="$PROJECT_DIR$/audioAndVideo/audioAndVideo.html" />
+        <option value="$PROJECT_DIR$/audioAndVideo/audioAndVideo.js" />
       </list>
     </option>
   </component>
@@ -163,7 +167,7 @@
             <path>
               <item name="JavaScript_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript_01" type="462c0819:PsiDirectoryNode" />
-              <item name="for_loop" type="462c0819:PsiDirectoryNode" />
+              <item name="audioAndVideo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,7 +338,7 @@
       <workItem from="1516827231225" duration="10212000" />
       <workItem from="1517001399287" duration="4178000" />
       <workItem from="1517040283838" duration="18485000" />
-      <workItem from="1517515589145" duration="1671000" />
+      <workItem from="1517515589145" duration="3320000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript_01">
       <created>1497952093276</created>
@@ -511,11 +515,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517522050744</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="JavaScript for loop.">
+      <created>1517522181413</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1517522181413</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130305000" />
+    <option name="totallyTimeSpent" value="131954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,20 +600,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animation/Waypoints.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/if-else/If_if_else_statement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/waypoints.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -859,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/variables/Variable_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -877,6 +867,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,6 +931,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
           <caret line="112" column="2" lean-forward="false" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -947,6 +939,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="84" column="72" lean-forward="false" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -954,14 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,6 +982,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/for_loop/Loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/for_loop/Loop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1003,10 +998,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/for_loop/Loop.js">
+    <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="147">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audioAndVideo/audioAndVideo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audioAndVideo/audioAndVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
       </provider>

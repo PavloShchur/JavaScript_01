@@ -34,25 +34,57 @@
 // noiseArray[3] = 'growl';
 // console.log(noiseArray);
 
-let names = ['John', 'Jane', 'Mark'];
-let years = new Array(1990, 1969, 1948);
+// let names = ['John', 'Jane', 'Mark'];
+// let years = new Array(1990, 1969, 1948);
+//
+// console.log(names[2]);
+// names[1] = 'Ben';
+// console.log(names);
+//
+//
+// let john = ['John', 'Smith', 1990, 'designer', false];
+//
+// john.push('blue');
+// john.unshift('Mr.');
+// john.pop();
+// john.shift();
+// console.log(john);
+//
+// if (john.indexOf('teacher') === -1) {
+//     console.log('John is NOT a teacher.');
+// }
 
-console.log(names[2]);
-names[1] = 'Ben';
-console.log(names);
+window.onload = function () {
+
+    let airlines = ['American', 'Southwest', 'United',
+        'Virgin America', 'jetBlue', 'Alaskan', 'Blue', 'Air Canada'];
+
+    // document.getElementById('result').innerHTML = airlines;
+
+    airlines.push('Mesa');
+
+    // document.getElementById('result').innerHTML = airlines;
+
+    for(let i = 0; i < airlines.length; i++){
+        document.getElementById('result').innerHTML += '<h2>' + airlines[i] + '</h2>';
+    }
+};
 
 
-let john = ['John', 'Smith', 1990, 'designer', false];
 
-john.push('blue');
-john.unshift('Mr.');
-john.pop();
-john.shift();
-console.log(john);
 
-if (john.indexOf('teacher') === -1) {
-    console.log('John is NOT a teacher.');
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
