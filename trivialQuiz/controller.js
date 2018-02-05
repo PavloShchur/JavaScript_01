@@ -1,7 +1,6 @@
-let questionNumber;
-let score;
-let answerSet;
-let gameSound;
+'use strict';
+
+let questionNumber, score, answerSet, gameSound;
 
 window.onload = function () {
 
@@ -24,7 +23,7 @@ function answerClicked(event) {
 
     if (parseInt(answerNumber) === correctAnswersIndexes[questionNumber]) {
         correctAnswer();
-    } else {
+    } else if (parseInt(answerNumber) !== correctAnswersIndexes[questionNumber]) {
         wrongAnswer();
     }
 }
@@ -39,16 +38,13 @@ function correctAnswer() {
 
     document.getElementById('score').innerHTML = '<h1>Score :' + score + '</h1>';
 
-    if (questionNumber <= 4) {
+    if (questionNumber < 4) {
         questionNumber++;
-
         displayQuestion(questionNumber);
-
     } else {
-
         gameOver();
-
     }
+
 }
 
 function wrongAnswer() {
@@ -59,9 +55,9 @@ function wrongAnswer() {
 
     document.getElementById('score').innerHTML = '<h1>Score :' + score + '</h1>';
 
-    if (questionNumber <= 4) {
+    if (questionNumber < 4) {
         questionNumber++;
-        displayAnswers(questionNumber);
+        displayQuestion(questionNumber);
     } else {
         gameOver();
     }
@@ -110,7 +106,6 @@ function displayAnswers(answerSet) {
     }
 
 }
-
 
 
 
