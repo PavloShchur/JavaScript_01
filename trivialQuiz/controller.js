@@ -21,11 +21,14 @@ function answerClicked(event) {
     let answerClicked = event.target.id;
     let answerNumber = answerClicked.charAt(answerClicked.length - 1);
 
-    if (parseInt(answerNumber) === correctAnswersIndexes[questionNumber]) {
-        correctAnswer();
-    } else if (parseInt(answerNumber) !== correctAnswersIndexes[questionNumber]) {
-        wrongAnswer();
+    if(confirm('Are you sure?')){
+        if (parseInt(answerNumber) === correctAnswersIndexes[questionNumber]) {
+            correctAnswer();
+        } else if (parseInt(answerNumber) !== correctAnswersIndexes[questionNumber]) {
+            wrongAnswer();
+        }
     }
+
 }
 
 function correctAnswer() {
@@ -94,15 +97,15 @@ function gameOver() {
         document.getElementById('score').innerHTML = '';
     }
 
+    display_mouseOver();
+
 }
 
 function displayAnswers(answerSet) {
 
     for (let i = 0; i < 4; i++) {
-
         let answerIdDiv = 'answer' + i;
         document.getElementById(answerIdDiv).innerHTML = answerSet[i];
-
     }
 
 }

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae91fcd-5534-4503-bbc4-d18c9c19c6a1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/trivialQuiz/service.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/trivialQuiz/controller.js" afterPath="$PROJECT_DIR$/trivialQuiz/controller.js" />
       <change beforePath="$PROJECT_DIR$/trivialQuiz/gameStyle.css" afterPath="$PROJECT_DIR$/trivialQuiz/gameStyle.css" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/lab.js" afterPath="$PROJECT_DIR$/trivialQuiz/lab.js" />
       <change beforePath="$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" afterPath="$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="gameStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivialQuiz/gameStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="142">
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,18 @@
       <file leaf-file-name="trivilQuiz_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            <state relative-caret-position="21">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trivialQuiz/service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -46,14 +56,14 @@
       <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivialQuiz/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lab.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lab.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivialQuiz/lab.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -69,8 +79,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -89,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation/programmingBasics/Calculator.js" />
         <option value="$PROJECT_DIR$/function/function.html" />
         <option value="$PROJECT_DIR$/programmingBasics/Calculator.html" />
         <option value="$PROJECT_DIR$/programmingBasics/Calculator.js" />
@@ -136,10 +145,11 @@
         <option value="$PROJECT_DIR$/objects/string.js" />
         <option value="$PROJECT_DIR$/objects/XML_HTTP_Request.html" />
         <option value="$PROJECT_DIR$/objects/XML_HTTP_Request.js" />
-        <option value="$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" />
+        <option value="$PROJECT_DIR$/trivialQuiz/lab.js" />
         <option value="$PROJECT_DIR$/trivialQuiz/gameStyle.css" />
         <option value="$PROJECT_DIR$/trivialQuiz/controller.js" />
-        <option value="$PROJECT_DIR$/trivialQuiz/lab.js" />
+        <option value="$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" />
+        <option value="$PROJECT_DIR$/trivialQuiz/service.js" />
       </list>
     </option>
   </component>
@@ -177,6 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,8 +205,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +372,8 @@
       <workItem from="1517515589145" duration="12204000" />
       <workItem from="1517737756043" duration="9353000" />
       <workItem from="1517856920487" duration="389000" />
-      <workItem from="1517857828353" duration="4503000" />
+      <workItem from="1517857828353" duration="4679000" />
+      <workItem from="1518116451365" duration="5144000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript_01">
       <created>1497952093276</created>
@@ -567,11 +578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517750759511</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="JavaScript : trivialQuiz (improve table).">
+      <created>1517862519602</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1517862519602</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155083000" />
+    <option name="totallyTimeSpent" value="160403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,20 +658,14 @@
     <MESSAGE value="JavaScript arrays." />
     <MESSAGE value="JavaScript : XML_HTTP_Request." />
     <MESSAGE value="JavaScript : trivialQuiz (learn and use three new HTML attributes)." />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaScript : trivialQuiz (learn and use three new HTML attributes)." />
+    <MESSAGE value="JavaScript : trivialQuiz (improve table)." />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript : trivialQuiz (improve table)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/programmingBasics/Deposit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programmingBasics/Deposit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1025,34 +1037,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html">
+    <entry file="file://$PROJECT_DIR$/trivialQuiz/lab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        <state relative-caret-position="126">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trivialQuiz/gameStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="142">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trivialQuiz/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivialQuiz/lab.js">
+    <entry file="file://$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="21">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trivialQuiz/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
           <folding />
         </state>
       </provider>

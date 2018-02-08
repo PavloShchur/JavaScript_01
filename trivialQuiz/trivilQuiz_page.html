@@ -7,15 +7,15 @@
 </head>
 <body>
 
-<div id="container" class="border2_solid_red borderRadius_25px padding_10px">
+<div onmouseleave="alertDisplay()" id="container" class="border2_solid_red borderRadius_25px padding_10px">
 
-    <div id="question" class="textAlighn_center question"></div>
-    <table class="textAlighn_center width">
-        <tr id="answer0" class="hover"></tr>
-        <tr id="answer1" class="hover"></tr>
-        <tr id="answer2" class="hover"></tr>
-        <tr id="answer3" class="hover"></tr>
-    </table>
+    <div id="question" class="textAlign_center question"></div>
+    <div onmouseover="count_mouseOver()" class="textAlign_center width">
+        <div id="answer0" class="hover answer"></div>
+        <div id="answer1" class="hover answer"></div>
+        <div id="answer2" class="hover answer"></div>
+        <div id="answer3" class="hover answer"></div>
+    </div>
 
     <div id="score"><h1>Score: 0</h1></div>
 
@@ -25,5 +25,6 @@
 
 <script type="text/javascript" src="lab.js"></script>
 <script type="text/javascript" src="controller.js"></script>
+<script type="text/javascript" src="service.js"></script>
 </body>
 </html>
