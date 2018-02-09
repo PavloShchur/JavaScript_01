@@ -97,6 +97,10 @@ function gameOver() {
         document.getElementById('score').innerHTML = '';
     }
 
+    if(confirm('Do You want to print the score?')){
+        print();
+    }
+
     display_mouseOver();
 
 }
@@ -109,6 +113,7 @@ function displayAnswers(answerSet) {
     }
 
 }
+
 
 
 
