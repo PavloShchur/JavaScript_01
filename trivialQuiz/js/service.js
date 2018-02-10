@@ -3,15 +3,7 @@
 let counterMouseOver = 0;
 let counterMouseLeave = 0;
 
-function count_mouseOver() {
-    counterMouseOver++;
-}
-
-function alertDisplay() {
-    counterMouseLeave++;
-}
-
-function display_mouseOver() {
-    alert('You put mose over ' + counterMouseOver + ' ' + counterMouseLeave);
-}
+let count_mouseOver = () => counterMouseOver++;
+let alertDisplay = () => counterMouseLeave++;
+let display_mouseOver = () => alert('You put mose over ' + counterMouseOver + ' ' + counterMouseLeave);
 
