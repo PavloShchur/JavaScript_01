@@ -39,3 +39,43 @@ console.log(name + ' is a ' + age + ' years old ' + job + '. Is he married? ' + 
 //console.log(lastName);
 
 alert(name + ' is a ' + age + ' years old ' + job + '. Is he married? ' + isMarried + '.');
+
+/************************
+ var vs let             *
+ block level scope      *
+                        *
+ ************************/
+
+// if (5 > 3) {
+//     var globalVisibility = 5;
+// }
+//
+// console.log('globalVisibility : ' + globalVisibility); // 5
+//
+//
+// if (5 > 3) {
+//     let noneGlobalVisibility = 5;
+// }
+//
+// console.log('globalVisibility : ' + noneGlobalVisibility); // Uncaught ReferenceError: noneGlobalVisibility is not defined
+
+/************************
+                        *
+ const scope visibility *
+                        *
+ ************************/
+
+if (5 > 3) {
+    const constNoneGlobalVisibility = 5;
+}
+
+console.log('globalVisibility : ' + constnoneGlobalVisibility); // Uncaught ReferenceError: constNoneGlobalVisibility is not defined
+
+
+
+
+
+
+
+
+
