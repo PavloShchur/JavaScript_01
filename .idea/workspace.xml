@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ae91fcd-5534-4503-bbc4-d18c9c19c6a1" name="Default" comment="JavaScript : arrow function was implemented in service.js.">
+    <list default="true" id="8ae91fcd-5534-4503-bbc4-d18c9c19c6a1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/function/arrows.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/function/arrows.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/Correct-answer-sound-effect.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/Wrong-answer-sound-effect.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/gameStyle.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/js/controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/js/helper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/js/lab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/js/service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/variables/Variable.js" afterPath="$PROJECT_DIR$/variables/Variable.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,10 +21,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Variable.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="arrows.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/function/arrows.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrows.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/function/arrows.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Variable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variables/Variable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1491">
+            <state relative-caret-position="226">
               <caret line="71" column="98" lean-forward="false" selection-start-line="71" selection-start-column="98" selection-end-line="71" selection-end-column="98" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -56,8 +69,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/programmingBasics/BlackJack.html" />
-        <option value="$PROJECT_DIR$/programmingBasics/RandomInt.html" />
         <option value="$PROJECT_DIR$/programmingBasics/RandomInt.js" />
         <option value="$PROJECT_DIR$/programmingBasics/NumberOfRed.js" />
         <option value="$PROJECT_DIR$/programmingBasics/NumberOfRed.html" />
@@ -127,6 +138,8 @@
         <option value="$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" />
         <option value="$PROJECT_DIR$/trivialQuiz/js/lab.js" />
         <option value="$PROJECT_DIR$/variables/Variable.js" />
+        <option value="$PROJECT_DIR$/function/arrows.html" />
+        <option value="$PROJECT_DIR$/function/arrows.js" />
       </list>
     </option>
   </component>
@@ -379,7 +392,7 @@
       <workItem from="1518116451365" duration="7756000" />
       <workItem from="1518297386703" duration="12363000" />
       <workItem from="1518549839234" duration="1929000" />
-      <workItem from="1518555616730" duration="1304000" />
+      <workItem from="1518555616730" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript_01">
       <created>1497952093276</created>
@@ -612,11 +625,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518298651760</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="JavaScript : variable vision scope: var, let, const.">
+      <created>1518556959596</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1518556959596</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178611000" />
+    <option name="totallyTimeSpent" value="180013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,28 +710,14 @@
     <MESSAGE value="JavaScript : service.js was added." />
     <MESSAGE value="JavaScript : js directory was added." />
     <MESSAGE value="JavaScript : arrow function was implemented in service.js." />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaScript : arrow function was implemented in service.js." />
+    <MESSAGE value="JavaScript : variable vision scope: var, let, const." />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript : variable vision scope: var, let, const." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/if-else/If_else_statement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="112" column="2" lean-forward="false" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/function_with_parameters.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/objects/objectsSimple.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -894,11 +900,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/variables/Variable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1491">
+        <state relative-caret-position="226">
           <caret line="71" column="98" lean-forward="false" selection-start-line="71" selection-start-column="98" selection-end-line="71" selection-end-column="98" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/arrows.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/arrows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
