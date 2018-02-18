@@ -59,6 +59,23 @@ alert(name + ' is a ' + age + ' years old ' + job + '. Is he married? ' + isMarr
 //
 // console.log('globalVisibility : ' + noneGlobalVisibility); // Uncaught ReferenceError: noneGlobalVisibility is not defined
 
+// function test() {
+//     var x = 10;
+// }
+// test();
+//
+// console.log('x : ' + x); // Uncaught ReferenceError: x is not defined
+
+for(let i = 0; i < 1; i++){
+    var v = 5;
+    let l = 5;
+    const c = 5;
+}
+
+console.log(`v : ${v}`); // 5
+// console.log(`l : ${l}`); // Uncaught ReferenceError: l is not defined
+// console.log(`c : ${c}`); // Uncaught ReferenceError: c is not defined
+
 /************************
                         *
  const scope visibility *
