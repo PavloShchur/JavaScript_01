@@ -73,55 +73,81 @@
 // jane['isMarried'] = true;
 //
 // console.log(jane);
+//
+// let john = {
+//     name: 'John',
+//     lastName: 'Smith',
+//     yearOfBirth: 1990,
+//     job: 'teacher',
+//     isMarried: false,
+//     family: ['Jane', 'Mark', 'Bob'],
+//     calculateAge: function() {
+//         return 2016 - this.yearOfBirth;
+//     }
+// };
+//
+// //console.log(john.calculateAge(1970));
+// console.log(john.calculateAge());
+//
+// let age = john.calculateAge();
+// john.age = age;
+//
+// console.log(john);
+//
+//
+//
+// //v2.0
+// let john = {
+//     name: 'John',
+//     lastName: 'Smith',
+//     yearOfBirth: 1990,
+//     job: 'teacher',
+//     isMarried: false,
+//     family: ['Jane', 'Mark', 'Bob'],
+//     calculateAge: function() {
+//         this.age = 2016 - this.yearOfBirth;
+//     }
+// };
+//
+// john.calculateAge();
+// console.log(john);
+//
+//
+// let mike = {
+//     yearOfBirth: 1950,
+//     calculateAge: function() {
+//         this.age = 2016 - this.yearOfBirth;
+//     }
+// };
+//
+// mike.calculateAge();
+// console.log(mike);
 
-let john = {
-    name: 'John',
-    lastName: 'Smith',
-    yearOfBirth: 1990,
-    job: 'teacher',
-    isMarried: false,
-    family: ['Jane', 'Mark', 'Bob'],
-    calculateAge: function() {
-        return 2016 - this.yearOfBirth;
-    }
-};
+// person constructor
+function Person(name, dateOgBirth) {
+    // this keyword refers to current instance of the object
+    this.name = name;
+    // this.age = age;
+    this.birthday = new Date(dateOgBirth);
+    this.calculateAge = function () {
+      const difference = Date.now() - this.birthday.getTime();
+      const ageDate = new Date(difference);
+      return Math.abs(ageDate.getUTCFullYear() - 1970);
+    };
+    // console.log(this); // Person {name: "Brad"} Person {name: "John"}
+}
 
-//console.log(john.calculateAge(1970));
-console.log(john.calculateAge());
+// console.log(this); //Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, frames: Window, …}
 
-let age = john.calculateAge();
-john.age = age;
+// const brad = new Person('Brad', 36);
+// const john = new Person('John', 30);
+//
+// console.log(john.age); // 30 Number type!!!!!!!
 
-console.log(john);
+const brad = new Person('Brad', '9-10-1990');
 
+console.log(brad.calculateAge());
 
-
-//v2.0
-let john = {
-    name: 'John',
-    lastName: 'Smith',
-    yearOfBirth: 1990,
-    job: 'teacher',
-    isMarried: false,
-    family: ['Jane', 'Mark', 'Bob'],
-    calculateAge: function() {
-        this.age = 2016 - this.yearOfBirth;
-    }
-};
-
-john.calculateAge();
-console.log(john);
-
-
-let mike = {
-    yearOfBirth: 1950,
-    calculateAge: function() {
-        this.age = 2016 - this.yearOfBirth;
-    }
-};
-
-mike.calculateAge();
-console.log(mike);
 
 
 
