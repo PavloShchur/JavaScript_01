@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ae91fcd-5534-4503-bbc4-d18c9c19c6a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/objects/XML_HTTP_Request.html" afterPath="$PROJECT_DIR$/builtInObjects/XML_HTTP_Request.html" />
-      <change beforePath="$PROJECT_DIR$/objects/XML_HTTP_Request.js" afterPath="$PROJECT_DIR$/builtInObjects/XML_HTTP_Request.js" />
-      <change beforePath="$PROJECT_DIR$/objects/date.html" afterPath="$PROJECT_DIR$/builtInObjects/date.html" />
-      <change beforePath="$PROJECT_DIR$/objects/date.js" afterPath="$PROJECT_DIR$/builtInObjects/date.js" />
-      <change beforePath="$PROJECT_DIR$/objects/event.css" afterPath="$PROJECT_DIR$/builtInObjects/event.css" />
-      <change beforePath="$PROJECT_DIR$/objects/event.html" afterPath="$PROJECT_DIR$/builtInObjects/event.html" />
-      <change beforePath="$PROJECT_DIR$/objects/event.js" afterPath="$PROJECT_DIR$/builtInObjects/event.js" />
-      <change beforePath="$PROJECT_DIR$/objects/number.html" afterPath="$PROJECT_DIR$/builtInObjects/number.html" />
-      <change beforePath="$PROJECT_DIR$/objects/number.js" afterPath="$PROJECT_DIR$/builtInObjects/number.js" />
-      <change beforePath="$PROJECT_DIR$/objects/objectsSimple.js" afterPath="$PROJECT_DIR$/objects/objectsSimple.js" />
-      <change beforePath="$PROJECT_DIR$/objects/window.html" afterPath="$PROJECT_DIR$/builtInObjects/window.html" />
-      <change beforePath="$PROJECT_DIR$/objects/window.js" afterPath="$PROJECT_DIR$/builtInObjects/window.js" />
+      <change beforePath="$PROJECT_DIR$/function/function.js" afterPath="$PROJECT_DIR$/function/function.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,20 +20,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="objectsSimple.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/objects/objectsSimple.js">
+      <file leaf-file-name="function.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/function/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="132" column="59" lean-forward="false" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="59" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="301">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="objectsSimple.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/objects/objectsSimple.html">
+      <file leaf-file-name="function.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/function/function.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -68,6 +55,8 @@
     <findStrings>
       <find>K</find>
       <find>var</find>
+      <find>plus</find>
+      <find>calc</find>
     </findStrings>
     <dirStrings>
       <dir>D:\БІБЛІОТЕКА\IT\Style\JavaScript_01</dir>
@@ -82,7 +71,6 @@
         <option value="$PROJECT_DIR$/operators/Assignment_operators.js" />
         <option value="$PROJECT_DIR$/programmingBasics/Fibonacci.html" />
         <option value="$PROJECT_DIR$/programmingBasics/Factorial.html" />
-        <option value="$PROJECT_DIR$/function/function.js" />
         <option value="$PROJECT_DIR$/for_loop/for_loop.js" />
         <option value="$PROJECT_DIR$/for_loop/Loop.html" />
         <option value="$PROJECT_DIR$/arrays/ArrayOutput.html" />
@@ -130,6 +118,7 @@
         <option value="$PROJECT_DIR$/objects/number.html" />
         <option value="$PROJECT_DIR$/objects/number.js" />
         <option value="$PROJECT_DIR$/objects/objectsSimple.js" />
+        <option value="$PROJECT_DIR$/function/function.js" />
       </list>
     </option>
   </component>
@@ -186,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -202,13 +192,12 @@
             <path>
               <item name="JavaScript_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript_01" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +376,8 @@
       <workItem from="1518859020972" duration="8697000" />
       <workItem from="1518903469253" duration="14000" />
       <workItem from="1518976210099" duration="7120000" />
-      <workItem from="1520157430255" duration="4535000" />
+      <workItem from="1520157430255" duration="4590000" />
+      <workItem from="1520281234447" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript_01">
       <created>1497952093276</created>
@@ -669,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520159052876</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="JavaScript : objectsSimple.js is modified.">
+      <created>1520176011981</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1520176011981</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203224000" />
+    <option name="totallyTimeSpent" value="205278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,14 +751,14 @@
     <MESSAGE value="JavaScript : window object." />
     <MESSAGE value="JavaScript : variable scope: var, let, const." />
     <MESSAGE value="JavaScript : number.js is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaScript : number.js is added." />
+    <MESSAGE value="JavaScript : objectsSimple.js is modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript : objectsSimple.js is modified." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nodeJS_01/node_modules/jasmine-core/lib/jasmine-core/jasmine.css" />
     <entry file="file://$PROJECT_DIR$/nodeJS_01/spec/support/jasmine.json" />
     <entry file="file://$PROJECT_DIR$/nodeJS_01/bower.json" />
     <entry file="file://$PROJECT_DIR$/nodeJS_01/package.json" />
@@ -774,13 +771,6 @@
     <entry file="file://$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" />
     <entry file="file://$PROJECT_DIR$/trivialQuiz/js/objects.js" />
     <entry file="file://$PROJECT_DIR$/trivialQuiz/js/lab.js" />
-    <entry file="file://$PROJECT_DIR$/function/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/variables/Variable_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-257">
@@ -842,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function/function_with_parameters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="109" lean-forward="false" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function/function_with_parameters.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -865,19 +848,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/event.js" />
     <entry file="file://$PROJECT_DIR$/for_loop/Loop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,22 +863,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/window.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/window.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/window.html" />
+    <entry file="file://$PROJECT_DIR$/objects/window.js" />
     <entry file="file://$PROJECT_DIR$/js/hello_world_4.js" />
     <entry file="file://$PROJECT_DIR$/html/hello_world.html" />
     <entry file="file://$PROJECT_DIR$/html/hello_world_2.html" />
@@ -924,31 +885,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/number.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/number.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/number.html" />
+    <entry file="file://$PROJECT_DIR$/objects/number.js" />
     <entry file="file://$PROJECT_DIR$/arrays/ArrayOutput.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
           <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,6 +901,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/objectsSimple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -968,13 +920,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/objectsSimple.js">
+    <entry file="file://$PROJECT_DIR$/function/function_with_parameters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="132" column="59" lean-forward="false" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="59" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="9" column="109" lean-forward="false" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
