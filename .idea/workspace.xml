@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ae91fcd-5534-4503-bbc4-d18c9c19c6a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/function/function.html" afterPath="$PROJECT_DIR$/function/function.html" />
       <change beforePath="$PROJECT_DIR$/function/function.js" afterPath="$PROJECT_DIR$/function/function.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,28 +20,7 @@
     <favorites_list name="JavaScript_01" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="function.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/function/function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="129" column="14" lean-forward="false" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function/function.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/operators/Assignment_operators.js" />
         <option value="$PROJECT_DIR$/programmingBasics/Fibonacci.html" />
         <option value="$PROJECT_DIR$/programmingBasics/Factorial.html" />
         <option value="$PROJECT_DIR$/for_loop/for_loop.js" />
@@ -120,6 +99,7 @@
         <option value="$PROJECT_DIR$/objects/number.js" />
         <option value="$PROJECT_DIR$/objects/objectsSimple.js" />
         <option value="$PROJECT_DIR$/function/function.js" />
+        <option value="$PROJECT_DIR$/function/function.html" />
       </list>
     </option>
   </component>
@@ -369,7 +349,9 @@
       <workItem from="1518976210099" duration="7120000" />
       <workItem from="1520157430255" duration="4590000" />
       <workItem from="1520281234447" duration="2066000" />
-      <workItem from="1520313386366" duration="1634000" />
+      <workItem from="1520313386366" duration="1738000" />
+      <workItem from="1520317502735" duration="6000" />
+      <workItem from="1520360393747" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="JavaScript_01">
       <created>1497952093276</created>
@@ -665,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520283264462</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="JavaScript : function.js is modified.">
+      <created>1520317365267</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1520317365267</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206979000" />
+    <option name="totallyTimeSpent" value="209734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,9 +671,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -771,13 +759,6 @@
     <entry file="file://$PROJECT_DIR$/trivialQuiz/trivilQuiz_page.html" />
     <entry file="file://$PROJECT_DIR$/trivialQuiz/js/objects.js" />
     <entry file="file://$PROJECT_DIR$/trivialQuiz/js/lab.js" />
-    <entry file="file://$PROJECT_DIR$/variables/Variable_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld_pavloShchur.html" />
     <entry file="file://$PROJECT_DIR$/ExampleDomain.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -874,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,22 +900,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="109" lean-forward="false" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variables/Variable_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="144" column="23" lean-forward="true" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/function/function.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="129" column="14" lean-forward="false" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="14" />
+        <state relative-caret-position="336">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>

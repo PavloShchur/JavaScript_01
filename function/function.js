@@ -129,6 +129,41 @@ firstCat.name = "Sniggles";
 firstCat.breed = "Manx";
 firstCat.speak('meow');
 
+// using anonymous closures
+(function() {
+    console.log('foo');
+})();
+
+// global variable visibility
+function invokeGlobalVariable() {
+    output = 'you can reach it';
+}
+
+console.log('invokeGlobalVariable : ' + output);
+
+// chaning module methods calls
+let ray = (function() {
+    let DEFAULTS = {
+        say: 'hello',
+        speed: 'normal'
+    };
+
+    return {
+        speak: function() {
+            let myArguments = arguments[0] || '';
+            let statement = myArguments.say || DEFAULTS.say;
+            console.log(statement);
+            return this;
+        },
+        run : function() {
+            let myArguments = arguments[0] || '';
+            let running = myArguments.speed || DEFAULTS.speed;
+            console.log('running...'+ running);
+            return this;
+        }
+    };
+})();
+
 
 
 
