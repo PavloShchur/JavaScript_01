@@ -92,7 +92,42 @@ secondDog = new Dog;
 secondDog.name = "Fluffy";
 secondDog.breed = "Poodle";
 
+// the arguments parameter
+let plus2 = function () {
+    let sum = 0;
+    for(let i = 0; i < arguments.length - 1; i--) {
+        sum += arguments[i];
+    }
+    return sum;
+};
+console.log('the arguments parameter : ' + plus2(2, 2, 2));
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let speak2 = function(saywhat) {
+    console.log(saywhat);
+};
+
+let Dog2 = function() {
+    let name, breed;
+};
+
+let Cat2 = function() {
+    let name, breed;
+};
+
+Dog2.prototype.speak = speak2;
+Cat2.prototype.speak = speak2;
+
+firstDog = new Dog2;
+firstDog.name = "Rover";
+firstDog.breed = "Doberman";
+firstDog.speak('woof');
+
+firstCat = new Cat2;
+firstCat.name = "Sniggles";
+firstCat.breed = "Manx";
+firstCat.speak('meow');
 
 
 
