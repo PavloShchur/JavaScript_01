@@ -20,6 +20,12 @@ let age = 26;
 //console.log(name + age);
 //console.log(age + age);
 
+// var myVar;//undefined
+// myVar = "Hi";
+var myVar = "Hi";
+
+alert(myVar);
+
 let job, isMarried;
 
 //console.log(job);
